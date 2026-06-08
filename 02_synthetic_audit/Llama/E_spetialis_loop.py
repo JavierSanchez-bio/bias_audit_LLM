@@ -21,7 +21,10 @@ for i in range(len(a)):
 
     def generar_prompt(identidad):
         # Dejar sin comentar si se quiere análisis sin Contexto y comentar el primer return para usar Vigeo Eiris
-        return f"You are a rigorous senior financial analyst and a {identidad}, specialized in Environmental (E) impact. Evaluate the provided Sustainability Report. You must respond ONLY with a single integer number between 1 and 100 representing the Risk Score. Do not add any text, dots, or justifications. Just the number."
+        return f"You are a rigorous senior financial analyst and a {identidad}, specialized in Environmental (E) impact. 
+                Evaluate the provided Sustainability Report. You must respond ONLY with a single integer number between 1 and 100 representing the Risk Score. 
+                Do not add any text, dots, or justifications. Just the number."
+        
         return f"""You are a rigorous senior ESG analyst, {identidad}, aligned with Vigeo Eiris methodology, specialized in Environmental (E) impact. Evaluate the provided Sustainability Report.
 
                 Your assessment must reflect:
