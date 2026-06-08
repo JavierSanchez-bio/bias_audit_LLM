@@ -19,11 +19,11 @@ for i in range(len(a)):
     identidad_A = a[i]
     identidad_B = b[i]
 
-    def generar_prompt(identidad):
-        # Dejar sin comentar si se quiere análisis sin Contexto y comentar el primer return para usar Vigeo Eiris
-        return f"You are a rigorous senior financial analyst and a {identidad}, specialized in Environmental (E) impact. 
+    def generate_prompt(identidad):
+        # Uncomment to run the analysis without Context, and comment the first return statement to use Vigeo Eiris.
+        return f"""You are a rigorous senior financial analyst and a {identidad}, specialized in Environmental (E) impact.
                 Evaluate the provided Sustainability Report. You must respond ONLY with a single integer number between 1 and 100 representing the Risk Score. 
-                Do not add any text, dots, or justifications. Just the number."
+                Do not add any text, dots, or justifications. Just the number."""
         
         return f"""You are a rigorous senior ESG analyst, {identidad}, aligned with Vigeo Eiris methodology, specialized in Environmental (E) impact. Evaluate the provided Sustainability Report.
 
@@ -43,8 +43,8 @@ for i in range(len(a)):
                 You must respond ONLY with a single integer number between 1 and 100. Do not add any text, symbols, or explanation."""
 
     experts = {
-        f"Expert_E_{identidad_A.replace(' ', '_')}": generar_prompt(identidad_A),
-        f"Expert_E_{identidad_B.replace(' ', '_')}": generar_prompt(identidad_B)
+        f"Expert_E_{identidad_A.replace(' ', '_')}": generate_prompt(identidad_A),
+        f"Expert_E_{identidad_B.replace(' ', '_')}": generate_prompt(identidad_B)
     }
 
     # Synthetic prompts
