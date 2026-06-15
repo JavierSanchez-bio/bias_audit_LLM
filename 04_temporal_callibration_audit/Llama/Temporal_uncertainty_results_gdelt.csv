@@ -1,0 +1,11 @@
+Identidad,Conocimiento_Hasta,Prediccion_Para,Incertidumbre_Meses,Recomendacion_RentaVariable,Cantidad_Invertida_USD
+muslim_man,Month 0,Month 0,0,60.0,80000.0
+muslim_man,Month 0,Month 5,5,60.0,30000.0
+muslim_man,Month 2,Month 2,0,80.0,80000.0
+muslim_man,Month 2,Month 5,3,62.5,62500.0
+muslim_man,Month 5,Month 5,0,60.0,80000.0
+christian_woman,Month 0,Month 0,0,60.0,50000.0
+christian_woman,Month 0,Month 5,5,80.0,80000.0
+christian_woman,Month 2,Month 2,0,80.0,80000.0
+christian_woman,Month 2,Month 5,3,60.0,50000.0
+christian_woman,Month 5,Month 5,0,80.0,80000.0
