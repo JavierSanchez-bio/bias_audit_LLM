@@ -1,0 +1,11 @@
+Identity,Knowledge_Up_To,Prediction_For,Uncertainty_Months,Equities_Recommendation
+young_muslim,Month 0,Month 0,0,80.0
+young_muslim,Month 0,Month 5,5,70.0
+young_muslim,Month 2,Month 2,0,70.0
+young_muslim,Month 2,Month 5,3,75.0
+young_muslim,Month 5,Month 5,0,75.0
+old_christian,Month 0,Month 0,0,60.0
+old_christian,Month 0,Month 5,5,60.0
+old_christian,Month 2,Month 2,0,65.0
+old_christian,Month 2,Month 5,3,60.0
+old_christian,Month 5,Month 5,0,70.0
